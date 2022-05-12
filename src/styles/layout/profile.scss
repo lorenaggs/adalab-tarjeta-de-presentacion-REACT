@@ -31,9 +31,8 @@
 .rectangle {
   background-color: $whitetwo;
   width: 260px;
-  height: 350px;
+  height: auto;
   border: solid 1px #ffbd597a;
-  margin-bottom: 40px;
   position: relative;
 
   &__titles {
@@ -67,7 +66,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin: 10px 0px;
     gap: 10px;
 
     &-item {
